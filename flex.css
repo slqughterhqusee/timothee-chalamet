@@ -1,0 +1,25 @@
+  @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+body {
+    background-color: rgb(222, 18, 208);
+    font-family: "Nosifer", sans-serif;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: 400px;
+    height: 400px;
+    filter: drop-shadow(30px 10px yellow);
+}
+
+.center-paragraph {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
